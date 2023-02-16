@@ -1,0 +1,87 @@
+.taitle{
+    font-family: Arial,  sans-serif;
+    font-size: 45px;
+    color: #c62020;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+.text{
+    line-height: 25px;
+}
+.text1{
+   letter-spacing: 16px;
+   text-decoration: line-through;
+   border: 3px #c62020 solid;
+}
+.block{
+    text-indent: 25px;
+}
+.block1{
+    width: 100px;
+    height: 100px;
+    border: 4px red solid;
+    padding-top: 40px;
+}
+.block2{
+    width: 100px;
+    height: 100px;
+    background-color: #d82a2a;
+    margin-bottom:30px ;
+}
+.block3{
+    height: 100px;
+    width: 100px;
+    border-left-width:8px ;
+    border-left-color: red;
+    border-left-style:dashed ;
+}
+.block4{
+    color: blue;
+    font-size:40px ;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 3px red solid;
+    display:  block;
+}
+.block5{
+    width: 1000px;
+    height: 1000px;
+    background-image: url(image.jpt.webp);
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+.block6{
+    width: 1000px;
+    height: 1000PX;
+    background-image: radial-gradient(#fc0000  , #6200ff )
+}
+.text2{
+    width: 100px;
+    height: 100px;
+    resize: none;
+}
+.input:focus{
+ background-color: #0004fc;
+}
+.block7{
+ width: 100px;
+ height: 100px;
+ background-color: red;
+ position: fixed;
+ top: 100px;
+ left: 100px;
+ z-index: 1;
+}
+.block8{
+width: 30px;
+height: 30px;
+background-color: blue;
+top: 150px;
+left: 150px;
+z-index: 2;
+}
+.fixed{
+    height: 2000px;
+}
